@@ -1,10 +1,10 @@
-﻿# 🏗️ Material Pro — Construction Material Management System
+﻿#  Material Pro — Construction Material Management System
 
 A full-featured ERP web application designed for construction material businesses. Manage materials, customers, suppliers, vehicles, drivers, purchases, sales, diesel entries, expenses, payments, and reports — all from a single, modern dashboard.
 
 ---
 
-## ✨ Features
+##  Features
 
 | Module | Description |
 |---|---|
@@ -23,7 +23,7 @@ A full-featured ERP web application designed for construction material businesse
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -40,7 +40,7 @@ A full-featured ERP web application designed for construction material businesse
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 construction-material-erp/
@@ -83,7 +83,7 @@ construction-material-erp/
 
 ---
 
-## 🗄️ Database Schema
+##  Database Schema
 
 The application uses **SQLite** via **Prisma ORM**. Core models:
 
@@ -101,7 +101,7 @@ The application uses **SQLite** via **Prisma ORM**. Core models:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -156,13 +156,13 @@ pnpm start
 
 ---
 
-## 🔐 Authentication
+##  Authentication
 
 The app uses a simple admin login system. After seeding the database, use the credentials defined in `prisma/seed.js` to log in at `/login`.
 
 ---
 
-## 📊 Dashboard KPIs
+##  Dashboard KPIs
 
 The dashboard provides the following real-time metrics:
 
@@ -177,7 +177,7 @@ The dashboard provides the following real-time metrics:
 
 ---
 
-## 📦 Key Dependencies
+##  Key Dependencies
 
 ```json
 {
@@ -192,19 +192,6 @@ The dashboard provides the following real-time metrics:
   "tailwindcss": "^4.2.0",
   "date-fns": "^4.4.0"
 }
-```
-
----
-
-## 🧪 Development Notes
-
-- TypeScript build errors are intentionally ignored (`ignoreBuildErrors: true`) to allow rapid prototyping — remove this flag before deploying to production.
-- Images are unoptimized (`unoptimized: true`) for local/static deployment flexibility.
-- The project uses **Vercel Analytics** which is only active in production mode.
-
----
-
-## 📄 License
 
 This project is proprietary. All rights reserved.
 
